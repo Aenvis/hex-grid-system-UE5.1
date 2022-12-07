@@ -12,7 +12,7 @@
 
 AHexGridSystemPlayerController::AHexGridSystemPlayerController()
 {
-	bShowMouseCursor = false;
+	bShowMouseCursor = true;
 	DefaultMouseCursor = EMouseCursor::Hand;
 	CachedDestination = FVector::ZeroVector;
 	FollowTime = 0.f;
